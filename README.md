@@ -31,4 +31,5 @@ Can be paired with https://github.com/sisaha9/slamevaluations to run benchmarks 
 3. source /opt/ros/melodic/setup.bash
 4. Run catkin_make in the catkin_ws folder
 5. source the devel/setup.bash in catkin_ws
-6. Follow steps 3-12 above
+6. Open 4 more terminals and source the melodic and devel again
+7. Follow steps 3-12 above
