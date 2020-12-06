@@ -37,7 +37,7 @@ RUN pip3 install --no-cache-dir numpy==1.16.0 \
 
 # Cloning
 RUN mkdir catkin_ws
-COPY ./Real-Time-Appearance-Based-Mapping/catkin_ws /catkin_ws
+COPY ./catkin_ws /catkin_ws
 
 RUN /bin/bash -c "echo 'source /opt/ros/melodic/setup.bash' >> ~/.bashrc "
 RUN /bin/bash -c "echo 'source /catkin_ws/devel/setup.bash' >> ~/.bashrc "
