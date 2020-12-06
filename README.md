@@ -28,7 +28,6 @@ Can be paired with https://github.com/sisaha9/slamevaluations to run benchmarks 
 # Not using Docker (untested)
 1. Install ros-melodic-desktop-full
 2. Install other dependencies from the Dockerfile
-3. Build the Dockerfile
-4. Copy over/clone the catkin_ws folder in this repo such that the catkin_ws is under the root directory
-5. source ~/.bashrc
-6. Follow steps 3-12 above
+3. Run catkin_make in the catkin_ws folder
+4. source /opt/ros/melodic/setup.bash and source the devel/setup.bash in catkin_ws
+5. Follow steps 3-12 above
