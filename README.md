@@ -31,6 +31,4 @@ Can be paired with https://github.com/sisaha9/slamevaluations to run benchmarks 
 3. Build the Dockerfile
 4. Copy over/clone the catkin_ws folder in this repo such that the catkin_ws is under the root directory
 5. source ~/.bashrc
-6. Follow steps 3-10 above
-7. rtabmap.db may be stored in the same folder you are running so just run rtabmap-report --poses rtabmap.db and then copy out the 3 text files
-
+6. Follow steps 3-12 above
