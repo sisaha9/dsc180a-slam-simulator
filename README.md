@@ -22,6 +22,7 @@ Can be paired with https://github.com/sisaha9/slamevaluations to run benchmarks 
 9. Save your rtabmap.db file and kill all the processes
 10. Follow steps 3-7 again except when loading the mapping.launch you will set localization:=true. Move around the terminal till you feel like the robot has localized
 11. Run rtabmap-report --poses /root/.ros/rtabmap.db. This will generate 3 text files in the .ros folder. Copy them out of the container and use the slamevaluations tool linked above to generate metrics and plots on it
+12. To hyperparameter tune edit the .yaml file in catkin_ws/src/autorally_gazebo/params/param1.yaml. Redo all the steps above to generate the data. Soon a library to process all this information will be released so that you can efficiently hyperparameter tune these
 
 
 # Not using Docker (untested)
