@@ -30,6 +30,6 @@ Can be paired with https://github.com/sisaha9/slamevaluations to run benchmarks 
 2. Install other dependencies from the Dockerfile
 3. source /opt/ros/melodic/setup.bash
 4. Run catkin_make in the catkin_ws folder
-5. source the devel/setup.bash in catkin_ws
-6. Open 4 more terminals and source the melodic and devel again
+5. source the devel/setup.bash in catkin_ws (or run setup.sh)
+6. Open 4 more terminals and source the melodic and devel again (or run setup.sh)
 7. Follow steps 3-12 above
